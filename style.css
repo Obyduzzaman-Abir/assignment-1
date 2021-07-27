@@ -5,8 +5,12 @@ body{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 45px;
     
+}
+
+h2{
+     font-size: 35px;
 }
 
 .color{
@@ -22,9 +26,7 @@ h1{
 }
 
 .half-width img{
-    width: 100%;
-   
-    
+    width: 100%;   
 }
 
 
@@ -40,9 +42,16 @@ font-weight: 800;
 
 .about-me{
     background-image: url(images/7.png);
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat;  
 }
+
+.recipies {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+}
+
 
 
 
