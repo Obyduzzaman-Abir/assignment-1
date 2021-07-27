@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+h1{
+    font-size: 40px;
+    
+}
+
+.color{
+    color: orangered;
+}
+.flex{
+    display: flex;
+}
+
+.half-width{
+    width: 40%;
+    padding: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+
+
+.link-btn{
+    background-image:linear-gradient(orangered , orange);
+text-decoration: none;
+padding: 15px 30px ;
+border-radius:20%;
+color: whitesmoke;
+font-weight: 800;
+}
