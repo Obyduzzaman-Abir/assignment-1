@@ -84,11 +84,12 @@ font-weight: 800;
     box-sizing: border-box;
     justify-content: center;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .card{
     background-color: whitesmoke;
-    width: 400px;
+    width: 300px;
     height: 400px;
     margin: 20px;
     border-radius: 20px;
@@ -101,6 +102,12 @@ font-weight: 800;
     height: 200px;
     margin-bottom: 15px;
     background-size: cover;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.card:hover{
+    box-shadow:20px 10px 50px skyblue;
 }
 
 #card-1{
@@ -114,3 +121,13 @@ font-weight: 800;
  #card-3{
     background-image: url(images/card-3.png);
  }
+
+ .footer{
+     background-color: rgb(10, 2, 15);
+     text-align: center;
+     padding: 20px;
+ }
+ .footer{
+     font-size: 20px;
+ }
+ 
