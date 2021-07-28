@@ -52,8 +52,65 @@ font-weight: 800;
     padding: 10px;
 }
 
+.card{
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px gray;
+}
+
+.img-style{
+    width: 100%;
+
+}
 
 
 
+.card-body{
+    padding: 5px;
+}
 
+.card-title{
+    text-align: center;
+}
 
+.car-des{
+    text-align: justify;
+   
+}
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow:20px 10px 40px gray;
+}
+
+.card-img{
+    background-color: white;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+#card-1{
+   background-image: url(images/card-1.png);
+}
+
+#card-2{
+    background-image: url(images/card-2.png);
+ }
+
+ #card-3{
+    background-image: url(images/card-3.png);
+ }
