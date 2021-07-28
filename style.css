@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 40px;
     
 }
 
@@ -13,6 +13,11 @@ h2{
      font-size: 35px;
 }
 
+h3{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+}
 .color{
     color: orangered;
 }
@@ -51,6 +56,13 @@ font-weight: 800;
     font-size: 20px;
     padding: 10px;
 }
+
+.recipies h2{
+    text-decoration: underline;
+}
+
+
+
 
 .card{
     width: 300px;
@@ -107,7 +119,8 @@ font-weight: 800;
 }
 
 .card:hover{
-    box-shadow:20px 10px 50px skyblue;
+    box-shadow:20px 10px 50px rgb(75, 182, 224);
+    transition: 1s;
 }
 
 #card-1{
